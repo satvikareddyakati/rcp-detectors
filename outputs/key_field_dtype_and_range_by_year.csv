@@ -1,0 +1,22 @@
+year,field,column,dtype,min,max,nonnull,missing_pct,notes
+2007,distance,log dist. [ft],float64,-27.82,57266.64,2446,0.0,
+2007,clock,o'clock,object,,,738,69.83,
+2007,depth_pct,depth [%],float64,10.0,67.0,711,70.93,
+2007,length,length [in],float64,0.35,44.24,711,70.93,
+2007,width,width [in],float64,0.55,42.81,711,70.93,
+2007,feature_type,event,str,,,2446,0.0,
+2015,distance,Log Dist. [ft],float64,-14.6,57340.0,3678,0.0,
+2015,clock,O'clock,object,,,1894,48.5,
+2015,depth_pct,Depth [%],float64,10.0,85.0,1768,51.93,
+2015,length,Length [in],float64,0.32,27.54,1774,51.77,
+2015,width,Width [in],float64,0.59,18.14,1774,51.77,
+2015,feature_type,Seam Type,float64,,,0,100.0,
+2022,distance,"Distance to U/S GW 
+[ft]",float64,0.0,40.469,2974,43.17,
+2022,clock,"O'clock
+[hh:mm]",object,,,3009,42.5,
+2022,depth_pct,"Metal Loss Depth 
+[%]",float64,10.0,79.0,2638,49.59,
+2022,length,Length [in],float64,0.2,97.1,2972,43.21,
+2022,width,Width [in],float64,0.2,28.1,2642,49.51,
+2022,feature_type,Dimension Classification,str,,,2636,49.63,

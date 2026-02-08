@@ -1,0 +1,10 @@
+canonical_field,role,required,2007_col,2015_col,2022_col,notes
+distance_m,location,True,log dist. [ft],Log Dist. [ft],"Distance to U/S GW 
+[ft]",
+clock_deg,location,True,o'clock,O'clock,"O'clock
+[hh:mm]",
+depth_percent,geometry,True,depth [%],Depth [%],"Metal Loss Depth 
+[%]",
+length_mm,geometry,False,length [in],Length [in],Length [in],
+width_mm,geometry,False,width [in],Width [in],Width [in],
+feature_type,classification,True,event,Seam Type,Dimension Classification,

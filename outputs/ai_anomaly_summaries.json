@@ -1,0 +1,84 @@
+{
+  "2007_to_2015": {
+    "summary": "Error calling OpenAI API: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable\n\nPlease ensure your OpenAI API key is set in the environment variable OPENAI_API_KEY or pass it directly.",
+    "stats": {
+      "Depth Growth": {
+        "count": 42,
+        "mean": -0.09523809523809523,
+        "median": 0.0,
+        "std": 0.4501096782072071,
+        "min": -1.375,
+        "max": 1.0,
+        "positive_growth": 15,
+        "negative_growth": 19,
+        "stable": 8,
+        "high_risk": 11
+      },
+      "Length Growth": {
+        "count": 42,
+        "mean": -0.6259285714285714,
+        "median": -0.36512500000000003,
+        "std": 1.6978165571835755,
+        "min": -8.127999999999998,
+        "max": 2.6035,
+        "positive_growth": 12,
+        "negative_growth": 26,
+        "stable": 4,
+        "high_risk": 11
+      },
+      "Width Growth": {
+        "count": 42,
+        "mean": 0.17840476190476173,
+        "median": 0.8572499999999998,
+        "std": 4.625921357782837,
+        "min": -26.82875,
+        "max": 4.85775,
+        "positive_growth": 27,
+        "negative_growth": 12,
+        "stable": 3,
+        "high_risk": 11
+      }
+    }
+  },
+  "2015_to_2022": {
+    "summary": "Error calling OpenAI API: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable\n\nPlease ensure your OpenAI API key is set in the environment variable OPENAI_API_KEY or pass it directly.",
+    "stats": {
+      "Depth Growth": {
+        "count": 35,
+        "mean": 0.6285714285714284,
+        "median": 0.2857142857142857,
+        "std": 0.8807668818251785,
+        "min": -0.5714285714285714,
+        "max": 3.857142857142857,
+        "positive_growth": 25,
+        "negative_growth": 3,
+        "stable": 7,
+        "high_risk": 9
+      },
+      "Length Growth": {
+        "count": 36,
+        "mean": 2.16202380952381,
+        "median": 1.1430000000000007,
+        "std": 4.414163374765977,
+        "min": -4.027714285714285,
+        "max": 21.154571428571426,
+        "positive_growth": 27,
+        "negative_growth": 9,
+        "stable": 0,
+        "high_risk": 9
+      },
+      "Width Growth": {
+        "count": 35,
+        "mean": 0.1337387755102042,
+        "median": 0.2902857142857148,
+        "std": 1.6715023461006764,
+        "min": -3.918857142857142,
+        "max": 3.3019999999999996,
+        "positive_growth": 21,
+        "negative_growth": 14,
+        "stable": 0,
+        "high_risk": 9
+      }
+    }
+  }
+}

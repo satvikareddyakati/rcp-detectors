@@ -1,0 +1,76 @@
+================================================================================
+PIPELINE ANOMALY ANALYSIS SUMMARIES
+================================================================================
+
+PERIOD 1: 2007 to 2015
+================================================================================
+Pipeline Integrity Analysis: 2007 to 2015
+
+📊 Overview:
+During the 2007 to 2015 inspection period, 1723 pipeline anomalies were successfully matched and tracked across both ILI runs.
+
+🔍 Depth Growth Analysis:
+• STABLE: Average depth change is minimal (-0.10% per year)
+• Range: -1.38% to 1.00% per year
+
+📏 Length Growth Analysis:
+• Average length is decreasing at 0.63 mm per year
+• Range: -8.13 to 2.60 mm per year
+
+📐 Width Growth Analysis:
+• STABLE: Average width change is minimal (0.18 mm per year)
+• Range: -26.83 to 4.86 mm per year
+
+⚠️ Risk Assessment:
+• 11 anomalies (0.6%) are classified as high-risk
+• Average risk index: 0.042
+
+💡 Recommendations:
+• Continue regular monitoring schedule
+• Focus on anomalies showing accelerating growth trends
+
+📋 Most Common Features:
+• weld: 1305 (75.7%)
+• corrosion: 215 (12.5%)
+• cluster: 161 (9.3%)
+
+
+
+================================================================================
+
+PERIOD 2: 2015 to 2022
+================================================================================
+Pipeline Integrity Analysis: 2015 to 2022
+
+📊 Overview:
+During the 2015 to 2022 inspection period, 448 pipeline anomalies were successfully matched and tracked across both ILI runs.
+
+🔍 Depth Growth Analysis:
+• CONCERN: Average depth is growing at 0.63% per year
+• 25 anomalies (71.4%) show depth increase (deterioration)
+• Range: -0.57% to 3.86% per year
+
+📏 Length Growth Analysis:
+• CONCERN: Average length is growing at 2.16 mm per year
+• 27 anomalies (75.0%) show length increase
+• Range: -4.03 to 21.15 mm per year
+
+📐 Width Growth Analysis:
+• STABLE: Average width change is minimal (0.13 mm per year)
+• Range: -3.92 to 3.30 mm per year
+
+⚠️ Risk Assessment:
+• 9 anomalies (2.0%) are classified as high-risk
+• Average risk index: 0.139
+
+💡 Recommendations:
+• PRIORITY ACTION: Investigate growing anomalies for potential repair
+• Increase inspection frequency for high-risk areas
+• Consider integrity assessment for anomalies with >20% depth growth
+
+📋 Most Common Features:
+• gene: 318 (71.0%)
+• unknown: 66 (14.7%)
+• corrosion: 35 (7.8%)
+
+

@@ -1,0 +1,20 @@
+[
+  {
+    "source_year": "2007",
+    "target_year": "2015",
+    "source_count": 2446,
+    "target_count": 3678,
+    "potential_matches": 716,
+    "unmatched_source": 1454,
+    "ambiguous_source": 276
+  },
+  {
+    "source_year": "2015",
+    "target_year": "2022",
+    "source_count": 3678,
+    "target_count": 2974,
+    "potential_matches": 0,
+    "unmatched_source": 3666,
+    "ambiguous_source": 12
+  }
+]

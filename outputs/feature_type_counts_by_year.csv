@@ -1,0 +1,27 @@
+feature_type,count_2007,count_2015,count_2022
+<NA>,0,3678,2597
+AXGR,0,0,101
+AXSL,0,0,14
+Above Ground Marker,12,0,0
+Area End Installation,2,0,0
+Area End Launcher,1,0,0
+Area End Receiver,1,0,0
+Area Start Installation,2,0,0
+Area Start Launcher,1,0,0
+Area Start Receiver,1,0,0
+Bend,78,0,0
+CIGR,0,0,26
+CISL,0,0,4
+Cathodic Protection Point,1,0,0
+Cluster,387,0,0
+Flange,2,0,0
+GENE,0,0,2262
+Girth Weld,1603,0,0
+Magnet,2,0,0
+PITT,0,0,229
+Support,5,0,0
+Tap,18,0,0
+Tee,2,0,0
+Valve,4,0,0
+metal loss,236,0,0
+metal loss-manufacturing anomaly,88,0,0

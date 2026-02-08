@@ -1,0 +1,115 @@
+year,column,missing_pct
+2007,J. no.,34.14
+2007,J. len [ft],34.18
+2007,t [in],4.99
+2007,to u/s w. [ft],70.93
+2007,log dist. [ft],0.0
+2007,Height [ft],0.0
+2007,event,0.0
+2007,depth [%],70.93
+2007,ID Reduction [%],100.0
+2007,length [in],70.93
+2007,width [in],70.93
+2007,P2 Burst / MOP,94.36
+2007,o'clock,69.83
+2007,internal,74.53
+2007,comment,90.31
+2015,J. no.,0.22
+2015,J. len [ft],56.2
+2015,Wt [in],7.91
+2015,to u/s w. [ft],51.74
+2015,to d/s w. [ft],51.74
+2015,Log Dist. [ft],0.0
+2015,Event Description,0.0
+2015,ID/OD,52.5
+2015,Depth [%],51.93
+2015,Depth [in],51.93
+2015,OD Reduction [%],99.84
+2015,OD Reduction [in],99.84
+2015,Length [in],51.77
+2015,Width [in],51.77
+2015,O'clock,48.5
+2015,Comments,82.52
+2015,Anomalies per Joint,92.06
+2015,Tool Velocity [ft/s],7.91
+2015,Elevation [ft],0.0
+2015,Seam Position (TFI),100.0
+2015,Tool   (TFI),55.06
+2015,Seam Anomaly  (TFI),100.0
+2015,MOP [PSI],7.91
+2015,SMYS [PSI],7.91
+2015,Seam Type,100.0
+2015,Pdesign [PSI],7.91
+2015,B31G Psafe [PSI],69.09
+2015,B31G Pburst [PSI],69.09
+2015,Mod B31G Psafe [PSI],86.38
+2015,Mod B31G Pburst [PSI],86.38
+2015,Effective Area Psafe [PSI],86.38
+2015,Effective Area Pburst [PSI],86.38
+2015,ERF,86.38
+2015,RPR,86.38
+2022,Joint Number,0.0
+2022,Joint Length [ft],0.02
+2022,WT [in],0.0
+2022,"Distance to U/S GW 
+[ft]",43.17
+2022,"Distance to D/S GW 
+[ft]",43.17
+2022,"ILI Wheel Count 
+[ft.]",0.0
+2022,Event Description,0.0
+2022,ID/OD,49.63
+2022,"Metal Loss Depth 
+[%]",49.59
+2022,"Metal Loss Depth 
+[in]",49.59
+2022,"Metal Loss Depth + Tolerance
+[%]",51.02
+2022,Dimension Classification,49.63
+2022,"Metal Loss Depth Tolerance [%] 
+(includes seamless and HAZ and modified specs)",51.04
+2022,"Dent Depth
+ [%]",99.89
+2022,"Dent Depth
+ [in]",99.89
+2022,"Is any part of the dent affecting the top of the pipe? 
+[Y/N]",99.85
+2022,Length [in],43.21
+2022,Width [in],49.51
+2022,"O'clock
+[hh:mm]",42.5
+2022,Comments,0.0
+2022,Anomalies per Joint,0.0
+2022,"Was anomaly sizing reviewed by analyst? 
+[Y/N]",43.17
+2022,"Was anomaly sizing/dimensions manually changed? 
+[Y/N]",43.17
+2022,"Magnetization Level 
+[kA/m] for MFL survey 
+or 
+Actual WT [in] for UT Survey",0.0
+2022,Elevation [ft],0.21
+2022,"Seam Position
+[hh:mm]",0.0
+2022,"Distance To Seam Weld 
+[in]",51.81
+2022,Tool,0.0
+2022,Evaluation Pressure [PSI],0.0
+2022,SMYS [PSI],0.0
+2022,Pipe Type,0.0
+2022,"Pipe Diameter (O.D.) 
+[in.]",0.0
+2022,Pdesign [PSI],0.0
+2022,"Mod B31G Psafe 
+[PSI]",49.63
+2022,Mod B31G Pburst [PSI],49.63
+2022,"Mod B31G Psafe Pressure with Tolerance
+[PSI]",49.63
+2022,"Mod B31G Pburst Pressure with Tolerance
+[PSI]",49.63
+2022,Effective Area Psafe [PSI],49.63
+2022,Effective Area Pburst [PSI],49.63
+2022,ERF,49.63
+2022,RPR,49.63
+2022,Length Tolerance [in],51.02
+2022,Width Tolerance [in],51.06

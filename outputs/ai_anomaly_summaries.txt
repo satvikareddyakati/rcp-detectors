@@ -1,0 +1,20 @@
+================================================================================
+AI-POWERED ANOMALY ANALYSIS SUMMARIES
+================================================================================
+
+PERIOD 1: 2007 to 2015
+--------------------------------------------------------------------------------
+Error calling OpenAI API: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+
+Please ensure your OpenAI API key is set in the environment variable OPENAI_API_KEY or pass it directly.
+
+================================================================================
+
+PERIOD 2: 2015 to 2022
+--------------------------------------------------------------------------------
+Error calling OpenAI API: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+
+Please ensure your OpenAI API key is set in the environment variable OPENAI_API_KEY or pass it directly.
+
+================================================================================
+Generated using OpenAI GPT-4o-mini

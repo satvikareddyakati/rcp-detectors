@@ -1,0 +1,147 @@
+
+    <!doctype html>
+    <html>
+      <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>RCP Anomaly Dashboard</title>
+        
+    <style>
+      :root {
+        --bg: #0b1220;
+        --card: #111827;
+        --accent: #22d3ee;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --border: #1f2937;
+      }
+      body { margin:0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      header { position: sticky; top:0; background: linear-gradient(90deg, #0ea5e9, #8b5cf6); color:white; padding: 14px 20px; z-index: 20; box-shadow: 0 2px 12px rgba(0,0,0,0.25); }
+      header h1 { margin:0; font-size: 20px; }
+      nav { margin-top:6px; display:flex; gap:12px; flex-wrap: wrap; }
+      nav a { color:white; text-decoration:none; background: rgba(255,255,255,0.15); padding:6px 10px; border-radius: 8px; }
+      .section { max-width: 1300px; margin: 22px auto; padding: 0 16px; }
+      .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px; box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+      h2 { margin:0 0 8px 0; font-size: 18px; color: var(--accent); }
+      h3 { margin:16px 0 10px 0; font-size: 16px; color: var(--muted); }
+      .grid-2 { display:grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+      iframe { width: 100%; height: 640px; border: 1px solid var(--border); border-radius: 12px; background:white; }
+      .metrics-frame { height: 1220px; }
+      pre { white-space: pre-wrap; font-size: 13px; line-height: 1.45; color: var(--text); }
+      footer { color: var(--muted); text-align:center; padding: 24px 0 34px 0; }
+    </style>
+    
+      </head>
+      <body>
+        <header>
+          <h1>RCP Anomaly Dashboard</h1>
+          <nav>
+            <a href="#summaries">Summaries</a>
+            <a href="#metrics">Interactive Metrics</a>
+            <a href="#align-07-15">Alignment 2007 → 2015</a>
+            <a href="#align-15-22">Alignment 2015 → 2022</a>
+          </nav>
+        </header>
+
+        <section id="summaries" class="section">
+          <div class="card">
+            <h2>Generative Summaries</h2>
+            <div class="grid-2">
+              <div>
+                <h3>2007 → 2015</h3>
+                <pre>Pipeline Integrity Analysis: 2007 to 2015
+
+📊 Overview:
+During the 2007 to 2015 inspection period, 1723 pipeline anomalies were successfully matched and tracked across both ILI runs.
+
+🔍 Depth Growth Analysis:
+• STABLE: Average depth change is minimal (-0.10% per year)
+• Range: -1.38% to 1.00% per year
+
+📏 Length Growth Analysis:
+• Average length is decreasing at 0.63 mm per year
+• Range: -8.13 to 2.60 mm per year
+
+📐 Width Growth Analysis:
+• STABLE: Average width change is minimal (0.18 mm per year)
+• Range: -26.83 to 4.86 mm per year
+
+⚠️ Risk Assessment:
+• 11 anomalies (0.6%) are classified as high-risk
+• Average risk index: 0.042
+
+💡 Recommendations:
+• Continue regular monitoring schedule
+• Focus on anomalies showing accelerating growth trends
+
+📋 Most Common Features:
+• weld: 1305 (75.7%)
+• corrosion: 215 (12.5%)
+• cluster: 161 (9.3%)
+</pre>
+              </div>
+              <div>
+                <h3>2015 → 2022</h3>
+                <pre>Pipeline Integrity Analysis: 2015 to 2022
+
+📊 Overview:
+During the 2015 to 2022 inspection period, 448 pipeline anomalies were successfully matched and tracked across both ILI runs.
+
+🔍 Depth Growth Analysis:
+• CONCERN: Average depth is growing at 0.63% per year
+• 25 anomalies (71.4%) show depth increase (deterioration)
+• Range: -0.57% to 3.86% per year
+
+📏 Length Growth Analysis:
+• CONCERN: Average length is growing at 2.16 mm per year
+• 27 anomalies (75.0%) show length increase
+• Range: -4.03 to 21.15 mm per year
+
+📐 Width Growth Analysis:
+• STABLE: Average width change is minimal (0.13 mm per year)
+• Range: -3.92 to 3.30 mm per year
+
+⚠️ Risk Assessment:
+• 9 anomalies (2.0%) are classified as high-risk
+• Average risk index: 0.139
+
+💡 Recommendations:
+• PRIORITY ACTION: Investigate growing anomalies for potential repair
+• Increase inspection frequency for high-risk areas
+• Consider integrity assessment for anomalies with >20% depth growth
+
+📋 Most Common Features:
+• gene: 318 (71.0%)
+• unknown: 66 (14.7%)
+• corrosion: 35 (7.8%)
+</pre>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="metrics" class="section">
+          <div class="card">
+            <h2>Interactive Metrics (Depth, Length, Width)</h2>
+            <iframe class="metrics-frame" src="dashboard_interactive_all_metrics_combined.html" title="Interactive Metrics"></iframe>
+          </div>
+        </section>
+
+        <section id="align-07-15" class="section">
+          <div class="card">
+            <h2>Alignment 2007 → 2015</h2>
+            <iframe src="ili_alignment_2007_to_2015.html" title="Alignment 2007 to 2015"></iframe>
+          </div>
+        </section>
+
+        <section id="align-15-22" class="section">
+          <div class="card">
+            <h2>Alignment 2015 → 2022</h2>
+            <iframe src="ili_alignment_2015_to_2022.html" title="Alignment 2015 to 2022"></iframe>
+          </div>
+        </section>
+
+        <footer>Generated locally — outputs folder references are relative. If an iframe looks blank, ensure all files are in the same outputs directory.</footer>
+      </body>
+    </html>
+    

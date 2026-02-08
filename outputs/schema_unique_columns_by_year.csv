@@ -1,0 +1,52 @@
+unique_2007,unique_2015,unique_2022
+Height [ft],B31G Pburst [PSI],"Dent Depth
+ [%]"
+ID Reduction [%],B31G Psafe [PSI],"Dent Depth
+ [in]"
+P2 Burst / MOP,Depth [%],Dimension Classification
+comment,Depth [in],"Distance To Seam Weld 
+[in]"
+depth [%],Log Dist. [ft],"Distance to D/S GW 
+[ft]"
+event,MOP [PSI],"Distance to U/S GW 
+[ft]"
+internal,Mod B31G Psafe [PSI],Evaluation Pressure [PSI]
+length [in],O'clock,"ILI Wheel Count 
+[ft.]"
+log dist. [ft],OD Reduction [%],"Is any part of the dent affecting the top of the pipe? 
+[Y/N]"
+o'clock,OD Reduction [in],Joint Length [ft]
+t [in],Seam Anomaly  (TFI),Joint Number
+width [in],Seam Position (TFI),Length Tolerance [in]
+,Seam Type,"Magnetization Level 
+[kA/m] for MFL survey 
+or 
+Actual WT [in] for UT Survey"
+,Tool   (TFI),"Metal Loss Depth 
+[%]"
+,Tool Velocity [ft/s],"Metal Loss Depth 
+[in]"
+,Wt [in],"Metal Loss Depth + Tolerance
+[%]"
+,to d/s w. [ft],"Metal Loss Depth Tolerance [%] 
+(includes seamless and HAZ and modified specs)"
+,,"Mod B31G Pburst Pressure with Tolerance
+[PSI]"
+,,"Mod B31G Psafe 
+[PSI]"
+,,"Mod B31G Psafe Pressure with Tolerance
+[PSI]"
+,,"O'clock
+[hh:mm]"
+,,"Pipe Diameter (O.D.) 
+[in.]"
+,,Pipe Type
+,,"Seam Position
+[hh:mm]"
+,,Tool
+,,WT [in]
+,,"Was anomaly sizing reviewed by analyst? 
+[Y/N]"
+,,"Was anomaly sizing/dimensions manually changed? 
+[Y/N]"
+,,Width Tolerance [in]
