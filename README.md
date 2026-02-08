@@ -1,8 +1,6 @@
-# rcp-detectors
+# Rcp Detectors
 
-# Intelligent ILI Data Alignment & Corrosion Growth Analysis
-
-This project presents an automated system for aligning In-Line Inspection (ILI) datasets collected at different times and analyzing corrosion growth in oil & gas pipelines.
+our project presents an automated system for aligning In-Line Inspection (ILI) datasets collected at different times and analyzing corrosion growth in oil & gas pipelines.
 
 The solution replaces a traditionally manual, time-consuming engineering process with a scalable, explainable, and auditable workflow.
 
